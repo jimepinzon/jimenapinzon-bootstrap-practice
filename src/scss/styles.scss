@@ -9,4 +9,54 @@
 // Import Bootstrap styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
 // Import partials here
+
+// Jumbotron
+.Jumbotron {
+  background-color: #ffffff;
+  background-image: url(../img/pirate-ship.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
+  font-family: 'Kaushan', cursive;
+  color: white;
+  text-align: center;
+}
+
+//Nav 
+.navbar {
+  background-color: #504c4cad;
+  a:hover {
+    text-decoration: underline;
+    color: rgb(17, 16, 16);
+  }
+}
+
+.nav-link {
+  color: white;
+}
+
+// columnns 
+.col-sm-8 {
+  font-family: 'Lexend', sans-serif;
+}
+
+//footer
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(128, 128, 128);
+  color: white;
+  text-align: center;
+}
+
+//byline
+.byline {
+  text-align:left;
+  font-size: smaller;
+}
