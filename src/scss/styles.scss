@@ -11,12 +11,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
 // Import partials here
 
 // Jumbotron
-.Jumbotron {
+.jumbotron {
   background-color: #ffffff;
   background-image: url(../img/pirate-ship.jpg);
   background-repeat: no-repeat;
@@ -58,5 +58,10 @@
 //byline
 .byline {
   text-align:left;
-  font-size: smaller;
+  font-weight: bold;
+}
+
+.source {
+  text-align: left;
+  font-style: italic;
 }
